@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.header{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding-top: 30px;
+    
+}
+
+.form{
+    display: flex;
+    padding: 50px 0 0 0;
+    height: 300px;
+    width: 40%;
+    flex-flow: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.q1{
+    width: 100%;
+    padding: 0 75px ;
+    font-size: 18px;
+}
+
+.q1 input{
+    width: 100%;
+    height: 30px;
+    background-color: #0a0a23;
+    border: none;
+    font-size: 18px;
+}
+
+hr{
+    width: 100%;
+}
+
+.q2{
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+a{color: blue;}
+
+.q3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.q3 input{
+    background-color: #0a0a23;
+}
+
+.q3 select{
+    color: #0a0a23;
+}
+
+#btnGonder{
+    width: 30%;
+    height: 20%;
+    color: white;
+    background-color: #0a0a23;
+    font-size: 20px;
+    border-color: white;
+
+}
+
+.q3 input{
+    width: 100%;
+    height: 30px;
+    background-color: #0a0a23;
+    border: none;
+    font-size: 18px;
+}
+
